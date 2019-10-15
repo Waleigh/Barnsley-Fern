@@ -1,5 +1,5 @@
 float x, y;
-// creating canvas
+
 void setup() {
   fullScreen();
   background(0);
@@ -63,8 +63,6 @@ void nextPoint() {
   point(px, py);
 }
 
-/* iterate the plotting and calculation
-   functions over a loop */
 void draw() {
   for (int i = 0; i < 10000; i++) {
     nextPoint();
